@@ -1,0 +1,824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{8d55f3ca-1045-4357-be04-4e07b547d6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\UsefulHeader">
+      <UniqueIdentifier>{e50ef857-d53b-4e35-9a72-5e7452ec5e55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\ManagerClass">
+      <UniqueIdentifier>{d34d02cb-64c4-413c-895f-299bfc304d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class">
+      <UniqueIdentifier>{2a8c6bee-3333-463b-bdf9-e8843704a381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\RootClass">
+      <UniqueIdentifier>{bb74ccbd-1511-41fc-922f-752b20369e4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Uniques">
+      <UniqueIdentifier>{600ff4f0-9cac-4600-b4d2-ae0fa7074284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Scene">
+      <UniqueIdentifier>{eeeb07ff-ac94-4ec1-b399-a456a6617e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{a0ed7856-f714-406d-a287-8ca34a28a4fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Obj">
+      <UniqueIdentifier>{062c6715-7198-4dd4-9be9-668df173dc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Obj\Parts">
+      <UniqueIdentifier>{59605d69-b29e-4ca0-93b2-66dd00986ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{f4d9336d-1816-45a6-8e1b-970ce78c3bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Obj\Parts\Collision">
+      <UniqueIdentifier>{f19e6cf7-7c8d-4e12-8e80-53620468109e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\ActivityEdit">
+      <UniqueIdentifier>{6fe1151b-3245-400c-b000-205dec66ea56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\RootClass\Object3D">
+      <UniqueIdentifier>{b5d5b873-94a8-4ea7-af06-81a637ea32e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Obj\Sprite">
+      <UniqueIdentifier>{a0da551e-1fb4-4748-ac87-007c90bd21b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Loader">
+      <UniqueIdentifier>{ed8212a5-7a89-40d8-969c-3ed7ffd8c53a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Obj\HSM">
+      <UniqueIdentifier>{66249d8d-4d32-49ca-9b02-b88952ea9c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\2DObject">
+      <UniqueIdentifier>{b765fdce-3b61-4cd8-8abd-03d80797c3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HSM">
+      <UniqueIdentifier>{bbf0d819-f332-4e69-9104-e4e11d786e22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\OBJ">
+      <UniqueIdentifier>{a3a1ff83-538f-4284-89fd-4f9cb3934603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Particle">
+      <UniqueIdentifier>{e56f70c2-fe15-4769-8954-87361dcfe7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Sprite">
+      <UniqueIdentifier>{bc44e10c-8a83-42d5-918f-08a20e1e768b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HSM\NonCam">
+      <UniqueIdentifier>{2b6c781a-9f94-4247-ae4c-3c6128f65cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\FrameWork">
+      <UniqueIdentifier>{24972139-5efb-4165-a84e-0039e594234c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostEffect">
+      <UniqueIdentifier>{35971276-475a-4d25-ba18-890ba2334787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\PostEffect\Basis">
+      <UniqueIdentifier>{50e6baac-b1d6-444d-9f7e-4e0ed766fe86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Class\Action">
+      <UniqueIdentifier>{ca86c021-97a7-4aa1-b620-b74299017bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Particle\Sprite">
+      <UniqueIdentifier>{4f812df1-f6a0-4c31-89ca-978558ec5f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\Particle\Primitive">
+      <UniqueIdentifier>{d3085639-671b-41fc-9235-57df4db17a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\users">
+      <UniqueIdentifier>{c1d42741-bf65-4705-91be-53fc27ccbc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\users\Panel">
+      <UniqueIdentifier>{79525abb-a21b-4b5c-abcf-e2f0ca562d14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\users">
+      <UniqueIdentifier>{2affcc0e-b759-49dc-a13e-087a2564ac0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\users\Enemy">
+      <UniqueIdentifier>{20703c7b-6ab6-4dbd-92d1-d65b471374a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\users\Camera">
+      <UniqueIdentifier>{6b3cee20-7f49-4d44-92f7-f89962183148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\users\SceneTrans">
+      <UniqueIdentifier>{8bfbd9b4-52c4-41fc-b3d8-008c71babd1b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Singleton.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="WinApp.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12App.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="DescHeap.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>SourceCode\RootClass</Filter>
+    </ClInclude>
+    <ClInclude Include="UsersInput.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipeline.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="DirtyFlag.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PipelineMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="SRVDescMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Object2D.h">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="imguiApp.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx12.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>SourceCode\Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Master.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionPrimitive.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseCollider.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshCollider.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="RaycastHit.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>SourceCode\Class\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedCamera.h">
+      <Filter>SourceCode\Uniques</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityEditor3D.h">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityEditor2D.h">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityEditor1D.h">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ActivityEditor.h">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="ActEditorsForObj3D.h">
+      <Filter>SourceCode\RootClass\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Object3D.h">
+      <Filter>SourceCode\RootClass\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>SourceCode\Class\Obj\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ActEditorsForSprite.h">
+      <Filter>SourceCode\Class\Obj\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFunc.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>SourceCode\Class\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_HSMA.h">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_HSM.h">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>SourceCode\RootClass</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInterface.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionInfo.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderInfo.h">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTargetMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="HowToOperate.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PostEffect.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="RTV_DSVDescMgr.h">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="PmxLoader.h">
+      <Filter>SourceCode\Class\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneTree.h">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationInfo.h">
+      <Filter>SourceCode\Class\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>SourceCode\Class\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveParticles.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="HSM.h">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeShift.h">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>SourceCode\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJModel.h">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunck.h">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\CenterPillar.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\GameObjectInterFace.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Constants.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugText.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Panel.h">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Layer.h">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\PanelMgr.h">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyGenerateHelper.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyMgr.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Enemy.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyGenerate.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\StageGenerateHelper.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="ActEditorsForCam.h">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCamera.h">
+      <Filter>SourceCode\users\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\GameCameraMotion.h">
+      <Filter>SourceCode\users\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\GameCameraMotionHelper.h">
+      <Filter>SourceCode\users\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyKillEvent.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyDeadEffect.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyBody.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyExplosion.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\EnemyExplosionEffect.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\GameOver.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Queen.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\QueenMgr.h">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\ScoreLevel.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Score.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\BackGround.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\TitleEnemy.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Tutorial.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\GameInterrupt.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\ToGameScene.h">
+      <Filter>SourceCode\users\SceneTrans</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\ToTitleScene.h">
+      <Filter>SourceCode\users\SceneTrans</Filter>
+    </ClInclude>
+    <ClInclude Include="src\users\Player.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>SourceCode\users</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="2DShaderHeader.hlsli">
+      <Filter>Shader\2DObject</Filter>
+    </None>
+    <None Include="HSMShaderHeader.hlsli">
+      <Filter>Shader\HSM</Filter>
+    </None>
+    <None Include="OBJShaderHeader.hlsli">
+      <Filter>Shader\OBJ</Filter>
+    </None>
+    <None Include="SpriteShaderHeader.hlsli">
+      <Filter>Shader\Sprite</Filter>
+    </None>
+    <None Include="PostEffectShaderHeader.hlsli">
+      <Filter>Shader\PostEffect\Basis</Filter>
+    </None>
+    <None Include="ParticleShaderHeader.hlsli">
+      <Filter>Shader\Particle\Sprite</Filter>
+    </None>
+    <None Include="PrimitiveParticleHeader.hlsli">
+      <Filter>Shader\Particle\Primitive</Filter>
+    </None>
+    <None Include="src\users\hlsl\LayerShaderHeader.hlsli">
+      <Filter>Shader\users</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12App.cpp">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="DescHeap.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>SourceCode</Filter>
+    </ClCompile>
+    <ClCompile Include="UsersInput.cpp">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipeline.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="DirtyFlag.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="PipelineMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="SRVDescMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="OBJModel.cpp">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Object2D.cpp">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="imguiApp.cpp">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx12.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>SourceCode\Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>SourceCode\RootClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Master.cpp">
+      <Filter>SourceCode\Class\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionPrimitive.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseCollider.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshCollider.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>SourceCode\Class\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedCamera.cpp">
+      <Filter>SourceCode\Uniques</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="HowToOperate.cpp">
+      <Filter>SourceCode\Uniques</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityEditor3D.cpp">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityEditor2D.cpp">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ActivityEditor1D.cpp">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="ActEditorsForObj3D.cpp">
+      <Filter>SourceCode\RootClass\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>SourceCode\RootClass\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>SourceCode\Class\Obj\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="ActEditorsForSprite.cpp">
+      <Filter>SourceCode\Class\Obj\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFunc.cpp">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>SourceCode\Class\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>SourceCode\Class\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Material_HSMA.cpp">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_HSM.cpp">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>SourceCode\RootClass</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionInterface.cpp">
+      <Filter>SourceCode\Class\Obj\Parts\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTargetMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PostEffect.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="RTV_DSVDescMgr.cpp">
+      <Filter>SourceCode\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="PmxLoader.cpp">
+      <Filter>SourceCode\Class\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneTree.cpp">
+      <Filter>SourceCode\Class\Obj\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>SourceCode\Class\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveParticles.cpp">
+      <Filter>SourceCode\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="HSM.cpp">
+      <Filter>SourceCode\Class\Obj\HSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\CenterPillar.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\GameObjectInterFace.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugText.cpp">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Panel.cpp">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Layer.cpp">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\PanelMgr.cpp">
+      <Filter>SourceCode\users\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>SourceCode\UsefulHeader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyMgr.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Enemy.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Constants.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyGenerate.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ActEditorsForCam.cpp">
+      <Filter>SourceCode\Class\ActivityEdit</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCamera.cpp">
+      <Filter>SourceCode\users\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\GameCameraMotion.cpp">
+      <Filter>SourceCode\users\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyKillEvent.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyDeadEffect.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyBody.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyExplosion.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\EnemyExplosionEffect.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\GameOver.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Queen.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\QueenMgr.cpp">
+      <Filter>SourceCode\users\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\ScoreLevel.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Score.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\BackGround.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\TitleEnemy.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Tutorial.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\GameInterrupt.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\ToGameScene.cpp">
+      <Filter>SourceCode\users\SceneTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\ToTitleScene.cpp">
+      <Filter>SourceCode\users\SceneTrans</Filter>
+    </ClCompile>
+    <ClCompile Include="src\users\Player.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>SourceCode\users</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="2DPixelShader.hlsl">
+      <Filter>Shader\2DObject</Filter>
+    </FxCompile>
+    <FxCompile Include="2DVertexShader.hlsl">
+      <Filter>Shader\2DObject</Filter>
+    </FxCompile>
+    <FxCompile Include="HSMPixelShader.hlsl">
+      <Filter>Shader\HSM</Filter>
+    </FxCompile>
+    <FxCompile Include="HSMVertexShader.hlsl">
+      <Filter>Shader\HSM</Filter>
+    </FxCompile>
+    <FxCompile Include="OBJPixelShader.hlsl">
+      <Filter>Shader\OBJ</Filter>
+    </FxCompile>
+    <FxCompile Include="OBJVertexShader.hlsl">
+      <Filter>Shader\OBJ</Filter>
+    </FxCompile>
+    <FxCompile Include="SpriteVertexShader.hlsl">
+      <Filter>Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="HSM_NonCamPixelShader.hlsl">
+      <Filter>Shader\HSM\NonCam</Filter>
+    </FxCompile>
+    <FxCompile Include="HSM_NonCamVertexShader.hlsl">
+      <Filter>Shader\HSM\NonCam</Filter>
+    </FxCompile>
+    <FxCompile Include="SpritePixelShader.hlsl">
+      <Filter>Shader\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="NonPostEffectPixelShader.hlsl">
+      <Filter>Shader\PostEffect\Basis</Filter>
+    </FxCompile>
+    <FxCompile Include="NonPostEffectVertexShader.hlsl">
+      <Filter>Shader\PostEffect\Basis</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleGeometryShader.hlsl">
+      <Filter>Shader\Particle\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticlePixelShader.hlsl">
+      <Filter>Shader\Particle\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="ParticleVertexShader.hlsl">
+      <Filter>Shader\Particle\Sprite</Filter>
+    </FxCompile>
+    <FxCompile Include="PrimitiveParticleGeometryShader.hlsl">
+      <Filter>Shader\Particle\Primitive</Filter>
+    </FxCompile>
+    <FxCompile Include="PrimitiveParticlePixelShader.hlsl">
+      <Filter>Shader\Particle\Primitive</Filter>
+    </FxCompile>
+    <FxCompile Include="PrimitiveParticleVertexShader.hlsl">
+      <Filter>Shader\Particle\Primitive</Filter>
+    </FxCompile>
+    <FxCompile Include="src\users\hlsl\LayerVertexShader.hlsl">
+      <Filter>Shader\users</Filter>
+    </FxCompile>
+    <FxCompile Include="src\users\hlsl\LayerPixelShader.hlsl">
+      <Filter>Shader\users</Filter>
+    </FxCompile>
+    <FxCompile Include="src\users\hlsl\LayerGeometryShader.hlsl">
+      <Filter>Shader\users</Filter>
+    </FxCompile>
+    <FxCompile Include="src\users\hlsl\LayerOutLinePixelShader.hlsl">
+      <Filter>Shader\users</Filter>
+    </FxCompile>
+    <FxCompile Include="src\users\hlsl\LayerOutLineGeometryShader.hlsl">
+      <Filter>Shader\users</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
